@@ -1,4 +1,4 @@
-package com.xstudioo.noteme;
+package com.xstudioo.Catatanku;
 
 import android.content.Context;
 import android.content.Intent;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.xstudioo.noteme">
+    package="com.xstudioo.Catatanku">
 
     <application
         android:allowBackup="true"
@@ -13,37 +13,37 @@
         <activity
             android:name=".Splash"
             android:exported="false" />
-        <activity android:name=".Edit">
+        <activity android:name="com.xstudioo.Catatanku.Edit">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.xstudioo.noteme.MainActivity" />
+                android:value="com.xstudioo.Catatanku.MainActivity" />
         </activity>
         <activity
-            android:name=".Detail"
+            android:name="com.xstudioo.Catatanku.Detail"
             android:label="@string/title_activity_detail"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.xstudioo.Catatanku.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.xstudioo.Catatanku.MainActivity" />
         </activity>
-        <activity android:name=".AddNote">
+        <activity android:name="com.xstudioo.Catatanku.AddNote">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.xstudioo.noteme.MainActivity" />
+                android:value="com.xstudioo.Catatanku.MainActivity" />
         </activity>
-        <activity android:name=".RegisterActivity" />
+        <activity android:name="com.xstudioo.Catatanku.RegisterActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.xstudioo.Catatanku.MainActivity"
             android:exported="true"></activity>
 
         <activity
-            android:name=".LoginActivity"
+            android:name="com.xstudioo.Catatanku.LoginActivity"
             android:exported="true"></activity>
 
         //Untuk memastikan bahawa yg muncul pertama adalah splash screen
         <activity
-            android:name=".SplashActivity"
+            android:name="com.xstudioo.Catatanku.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

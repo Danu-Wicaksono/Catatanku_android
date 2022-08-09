@@ -1,4 +1,4 @@
-package com.xstudioo.noteme;
+package com.xstudioo.Catatanku;
 
 import org.junit.Test;
 

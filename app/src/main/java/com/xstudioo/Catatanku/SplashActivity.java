@@ -1,8 +1,7 @@
-package com.xstudioo.noteme;
+package com.xstudioo.Catatanku;
 
 import android.content.Intent;
 import android.os.Handler;
-import android.preference.PreferenceActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;

@@ -1,4 +1,4 @@
-package com.xstudioo.noteme;
+package com.xstudioo.Catatanku;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
